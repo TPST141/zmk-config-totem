@@ -54,7 +54,7 @@
             key-positions = <1 2 3>;
         };
 
-        combo_BT_SEL_3 {
+        combo_BT_SEL_4 {
             bindings = <&bt BT_SEL 4>;
             key-positions = <11 12 13>;
         };
