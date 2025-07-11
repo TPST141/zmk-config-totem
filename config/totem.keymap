@@ -89,14 +89,14 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp D>, <&kp JP_MUHENKAN>;
+            bindings = <&kp D>, <&kp JP_MUHENKAN>, <&kp JP_MUHENKAN>;
         };
         
         td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp K>, <&kp JP_HENKAN>;
+            bindings = <&kp K>, <&kp JP_HENKAN>, <&kp JP_HENKAN>;
         };
         
     };
