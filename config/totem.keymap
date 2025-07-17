@@ -20,37 +20,37 @@
         combo_BT_SEL_0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <6 7 8>;
-            timeout-ms = <50>;
+            timeout-ms = <40>;
         };
 
         combo_BT_SEL_1 {
             bindings = <&bt BT_SEL 1>;
             key-positions = <16 17 18>;
-            timeout-ms = <50>;
+            timeout-ms = <40>;
         };
 
         combo_BT_SEL_2 {
             bindings = <&bt BT_SEL 2>;
             key-positions = <27 28 29>;
-            timeout-ms = <50>;
+            timeout-ms = <40>;
         };
 
         combo_BT_SEL_3 {
             bindings = <&bt BT_SEL 3>;
             key-positions = <1 2 3>;
-            timeout-ms = <50>;
+            timeout-ms = <40>;
         };
 
         combo_BT_SEL_4 {
             bindings = <&bt BT_SEL 4>;
             key-positions = <11 12 13>;
-            timeout-ms = <50>;
+            timeout-ms = <40>;
         };
 
         combo_BT_CLR {
             bindings = <&bt BT_CLR>;
             key-positions = <22 23 24>;
-            timeout-ms = <50>;
+            timeout-ms = <40>;
         };
     };
 
@@ -89,16 +89,8 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp D>, <&kp JP_MUHENKAN>, <&kp JP_MUHENKAN>;
+            bindings = <&kp JP_HANZEN>, <&kp JP_HENKAN>, <&kp JP_MUHENKAN>;
         };
-        
-        td1: tap_dance_1 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp K>, <&kp JP_HENKAN>, <&kp JP_HENKAN>;
-        };
-        
     };
 
 // -------------------------------------------------------------------------------------------------
@@ -108,9 +100,9 @@
         Character_layer {
             bindings = <
          &kp Q         &kp W  &kp E         &kp R         &kp T          &kp Y        &kp U          &kp I         &kp O       &kp P
-         &mt LSHIFT A  &kp S  &td0          &mt LSHIFT  F &lt 2 G        &lt 2 H      &mt LSHIFT J   &td1          &kp L       &mt LSHIFT JP_COLON
+         &mt LSHIFT A  &kp S  &kp D         &mt LSHIFT  F &lt 2 G        &lt 2 H      &mt LSHIFT J   &kp K         &kp L       &mt LSHIFT SEMICOLON
 &kp TAB  &mt LSHIFT Z  &kp X  &kp C         &kp V         &kp B          &kp N        &kp M          &kp COMMA     &kp PERIOD  &mt LSHIFT SLASH     &kp TAB
-                              &kp LEFT_ALT  &kp LCTRL     &lt 1 SPACE    &lt 3 ENTER  &kp JP_HANZEN  &kp LEFT_WIN
+                              &kp LEFT_ALT  &kp LCTRL     &lt 1 SPACE    &lt 3 ENTER  &td0           &kp LEFT_WIN
             >;
         };
 
@@ -126,7 +118,7 @@
         Symbol_layer {
             bindings = <
         &kp EXCL  &kp JP_AT  &kp HASH      &kp DLLR       &kp PRCNT         &kp JP_AMPERSAND  &kp JP_CARET       &kp JP_PIPE  &kp MINUS     &kp JP_YEN
-        &none     &none      &kp JP_QUOTE  &kp JP_DQUOTE  &kp JP_BACKQUOTE  &none             &kp JP_UNDERSCORE  &none        &kp JP_TILDE  &kp SEMICOLON
+        &none     &none      &kp JP_QUOTE  &kp JP_DQUOTE  &kp JP_BACKQUOTE  &none             &kp JP_UNDERSCORE  &none        &kp JP_TILDE  &kp JP_COLON
 &trans  &none     &none      &none         &none          &none             &none             &none              &kp COMMA    &kp PERIOD    &kp SLASH             &trans
                              &trans        &trans         &trans            &trans            &trans             &trans
             >;
