@@ -128,7 +128,7 @@
             bindings = <
         &kp LS(CAPS)  &kp LC(PRINTSCREEN) &kp JP_LBRACE    &kp JP_RBRACE    &kp PAGE_UP      &none          &kp DELETE      &kp UP_ARROW    &none            &none
         &kp LSHIFT    &kp INSERT          &kp JP_LBRACKET  &kp JP_RBRACKET  &kp PAGE_DOWN    &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
-&trans  &kp LSHIFT    &none               &kp JP_LPAREN    &kp JP_RPAREN    &none            &kp ESCAPE     &kp HOME        &none           &kp END          &none &none
+&trans  &kp LSHIFT    &none               &kp JP_LPAREN    &kp JP_RPAREN    &none            &kp ESCAPE     &kp HOME        &none           &kp END          &kp LG(LA(K)) &none
                                           &trans           &trans           &kp JP_MUHENKAN  &trans         &trans          &trans
             >;
         };
