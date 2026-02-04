@@ -126,7 +126,7 @@
 
         Cursor_layer {
             bindings = <
-        &kp LS(CAPS)  &kp INSERT          &kp JP_LBRACE    &kp JP_RBRACE     &kp PAGE_UP       &kp DELETE        &msc SCRL_LEFT     &kp UP_ARROW    &msc SCRL_RIGHT  &kp LC(PRINTSCREEN)
+        &kp LS(CAPS)  &kp INSERT          &kp JP_LBRACE    &kp JP_RBRACE     &kp PAGE_UP       &kp DELETE        &none              &kp UP_ARROW    &none            &kp LC(PRINTSCREEN)
         &kp LSHIFT    &none               &kp JP_LBRACKET  &kp JP_RBRACKET   &kp PAGE_DOWN     &kp BACKSPACE     &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
 &trans  &none         &none               &kp JP_LPAREN    &kp JP_RPAREN     &none             &kp ESCAPE        &kp HOME           &none           &kp END          &kp LG(LA(K))    &none
                                           &trans           &trans            &kp JP_HANZEN     &trans            &trans             &trans
