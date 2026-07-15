@@ -2,10 +2,13 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: bildermankawasaki
+      url-base: https://github.com/bildermankawasaki
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: 5d9920406c662608aecdb486e5a299fdea93a478
+      revision: v0.3 # ← ZMK v0.3 タグ、またはそのリビジョンの具体的な SHA を指定
       import: app/west.yml
-  self:
-    path: config
+    - name: zmk-keyboard-totem
+      remote: bildermankawasaki
+      revision: main
