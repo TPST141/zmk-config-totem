@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: 2ae51854192aed92af95536f79547e2928cd1bf5 # ← ZMK v0.3 タグ、またはそのリビジョンの具体的な SHA を指定
+      revision: 239baa487509ace108d36f0e5c627d61a3d95f53 # ← ZMK v0.3 タグ、またはそのリビジョンの具体的な SHA を指定
       import: app/west.yml
     - name: zmk-keyboard-totem
       remote: bildermankawasaki
