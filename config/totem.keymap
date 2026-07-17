@@ -122,13 +122,6 @@
             >;
         };
 
-        Cursor_layer {
-            bindings = <
-        &kp LS(CAPS)  &none               &kp JP_LBRACE    &kp JP_RBRACE     &kp PAGE_UP       &none             &kp DELETE         &kp UP_ARROW    &kp INSERT       &kp LC(PRINTSCREEN)
-        &kp LSHIFT    &none               &kp JP_LBRACKET  &kp JP_RBRACKET   &kp PAGE_DOWN     &kp BACKSPACE     &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
-&trans  &none         &none               &kp JP_LPAREN    &kp JP_RPAREN     &none             &kp ESCAPE        &kp LC(LG(LEFT_ARROW)) &kp LC(LG(D)) &kp LC(LG(RIGHT_ARROW)) &kp LG(LA(K)) &none
-                                          &trans           &trans            &kp JP_HANZEN     &trans            &trans             &trans
-            >;
-        };
+        
     };
 };
